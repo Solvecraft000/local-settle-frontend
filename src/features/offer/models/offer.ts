@@ -9,6 +9,7 @@ export interface Offer {
     /** Fiat currency used for this offer's price (older API responses omit it). */
     currency?: string,
     fiatCurrency?: string,
+    createdAt?: string,
     minAmount: string,
     maxAmount: string,
     status: string,
