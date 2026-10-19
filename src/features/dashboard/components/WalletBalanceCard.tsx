@@ -45,7 +45,7 @@ export function WalletBalanceCard({
                             data-testid="balance-skeleton"
                             role="status"
                             aria-label="Loading total balance"
-                            className="h-[44px] md:h-[64px] w-[70%] max-w-[360px] rounded-lg bg-white/10 animate-pulse"
+                            className="h-[44px] md:h-[64px] w-[70%] max-w-[360px] rounded-lg bg-white/10 animate-pulse motion-reduce:animate-none"
                         />
                     ) : error && !isStale ? (
                         <div className="flex flex-col items-start gap-2">
